@@ -1,3 +1,4 @@
 data/rnaseq
 data/ref
 nextflow_pipe/
+data/gff
