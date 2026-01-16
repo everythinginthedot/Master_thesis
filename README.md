@@ -41,21 +41,39 @@ wget "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_
 
 ## Data Quality
 
-### NanoPlot
 
-**Healthy**
-'''
+
+### **Healthy**
+
+#### **NanoPlot**
+```
 NanoPlot --fastq SRR36191871.fastq  -o SRR36191871_nanoplot  
-'''
+```
 
-![NanoPlot SRR36191871]('./data/images/Nanoplot_SRR36191871_header.png')
+Header
+![NanoPlot SRR36191871](./data/images/Nanoplot_SRR36191871_header.png)
+
+Length Quality Scatter Plot
+![NanoPlot SRR36191871](./data/images/Nanoplot_SRR36191871_KDE.png)
 
 
 
-**Cancer**
-'''
+
+
+
+### **Cancer**
+
+#### **NanoPlot**
+```
 NanoPlot --fastq SRR36191863.fastq  -o SRR36191863_nanoplot 
-'''
+```
+
+Header
+![NanoPlot SRR36191863](./data/images/Nanoplot_SRR36191863_header.png)
+
+Length Quality Scatter Plot
+![NanoPlot SRR36191863](./data/images/Nanoplot_SRR36191863_KDE.png)
+
 
 
 Filtlong
