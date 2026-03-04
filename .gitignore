@@ -1,4 +1,14 @@
+*.bam
+*.fa
+*.fna
+*.fastq
+*.fq
+*.sam
 data/rnaseq
 data/ref
+data/bam
 nextflow_pipe/
-data/gff
+data/gtf
+data/FLAIR_results
+data/intronProspector
+data/intron_junctions
